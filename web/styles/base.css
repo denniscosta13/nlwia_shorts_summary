@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --base-background: #121214;
+  --base-input-surface: #202024;
+  --base-text-secondary: #7c7c8a;
+  --base-text-primary: #fff;
+  --brand-primary-mid: #8257e5;
+  --brand-primary-light: #996dff;
+}
+
+body {
+  background-color: var(--base-background);
+
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--base-text-primary);
+  font-size: 1.6rem;
+}
+
+body,
+button,
+input {
+  font-family: "Roboto", sans-serif;
+}

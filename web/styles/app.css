@@ -1,0 +1,49 @@
+:root {
+  --base-background: #121214;
+  --base-input-surface: #202024;
+  --base-text-secondary: #7c7c8a;
+  --base-text-primary: #fff;
+  --brand-primary-mid: #8257e5;
+  --brand-primary-light: #996dff;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6.4rem;
+  padding: 2.5rem;
+}
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#logo > h1 {
+  color: var(--brand-primary-light);
+}
+
+#logo > img {
+  width: 6.4rem;
+}
+
+#summary {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+#summary > p {
+  text-align: justify;
+
+  width: 51.2rem;
+}
+
+#app .placeholder {
+  color: var(--base-text-secondary);
+  user-select: none;
+}
