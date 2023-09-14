@@ -46,4 +46,5 @@
 #app .placeholder {
   color: var(--base-text-secondary);
   user-select: none;
+  cursor: not-allowed;
 }
